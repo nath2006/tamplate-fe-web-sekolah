@@ -975,7 +975,7 @@ section.program-studi .categories .main-button-red a {
 ---------------------------------------------
 apply now
 ---------------------------------------------
-*/
+
 
 section.apply-now {
   background-image: url(../images/apply-bg.jpg);
@@ -1054,6 +1054,7 @@ section.apply-now .item p {
   padding-top: 0;
 }
 
+*/
 
 /* 
 ---------------------------------------------
@@ -1068,12 +1069,16 @@ section.our-courses {
   background-repeat: no-repeat;
   text-align: center;
   background-size: cover;
-  padding-top: 140px;
+  padding-top: 10px;
   padding-bottom: 130px;
+  
 }
 
 .our-courses .item .down-content {
   background-color: #fff;
+  padding-bottom: 50px;
+  position: relative;
+
 }
 
 .our-courses .item .down-content h4 {
@@ -1237,7 +1242,7 @@ section.our-facts h2 {
 }
 
 .percentage .count-digit:after {
-  content: '%';
+  /* content: '%'; */
   margin-left: 3px;
 }
 
@@ -1325,7 +1330,7 @@ section.contact-us #contact textarea {
   min-height: 140px;
   max-height: 180px;
   border-radius: 20px;
-  background-color: #f7f7f7;
+  background-color: rgba(250,250,250,0.9);
   outline: none;
   border: none;
   box-shadow: none;
@@ -1351,7 +1356,7 @@ section.contact-us #contact button {
 }
 
 section.contact-us #contact button:hover {
-  opacity: 0.9;
+  opacity: 10;
 }
 
 section.contact-us .left-info {
@@ -1361,6 +1366,13 @@ section.contact-us .left-info {
 }
 
 @media screen and (max-width: 768px) {
+  section.contact-us .left-info{
+    position: relative;
+    bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
   section.contact-us .left-info{
     position: relative;
     bottom: 20px;
